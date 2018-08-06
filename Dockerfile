@@ -6,3 +6,4 @@ VOLUME ["/opt/rrsahre", "/opt/work/store"]
 CMD ["/opt/rrshare/rrshareweb", "run"]
 
 EXPOSE 3001
+EXPOSE 6714
