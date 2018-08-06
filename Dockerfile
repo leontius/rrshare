@@ -5,4 +5,4 @@ COPY ./rrshare /opt/rrshare
 VOLUME ["/opt/rrsahre", "/opt/work/store"]
 CMD ["/opt/rrshare/rrshareweb", "run"]
 
-EXPOSE 3001,6714
+EXPOSE 3001
