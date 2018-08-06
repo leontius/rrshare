@@ -1,9 +1,8 @@
 FROM centos:7
-RUN mkdir -p /opt/rrsahre
 COPY ./rrshare /opt/rrshare
 
-VOLUME ["/opt/rrsahre", "/opt/work/store"]
-CMD ["/opt/rrshare/rrshareweb", "run"]
+VOLUME ["/opt/work/store"]
+CMD ["/opt/rrshare/rrshareweb"]
 
 EXPOSE 3001
 EXPOSE 6714
