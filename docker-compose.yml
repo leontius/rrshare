@@ -7,3 +7,5 @@ services:
     container_name: rrshare
     ports:
       - 3001:3001
+      volumes:
+    - ./store:/opt/work/store
