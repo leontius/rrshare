@@ -2,10 +2,12 @@ version: '2'
 
 services:
   rrshare:
-    image: leontius/rrshareweb:latest
+    image: auska/docker-rrshareweb
     restart: always
     container_name: rrshare
     ports:
       - 3001:3001
+      - 6714:6714
+      - 30210:30210
     volumes:
       - ./store:/opt/work/store
