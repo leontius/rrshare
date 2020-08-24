@@ -2,7 +2,7 @@ version: '2'
 
 services:
   rrshare:
-    image: auska/docker-rrshareweb
+    image: leontius/rrshareweb:latest
     restart: always
     container_name: rrshare
     ports:
